@@ -3,7 +3,6 @@ clean:
 	@sudo apt autoremove
 	@sudo apt clean
 	@rm -rf $(HOME)/.npm/*
-	#@rm -rf $(HOME)/.local/*
 	@rm -rf $(HOME)/.cache/*
 	@rm -rf $(HOME)/.npm-global/*
 	@rm -rf $(HOME)/.vscode-remote/*
